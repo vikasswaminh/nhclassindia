@@ -1,119 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Low FODMAP Meal Plan</title>
-    <script src="https://cdn.tailwindcss.com"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My AS Healing Diet Tracker</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
-<body class="bg-gray-100 text-gray-900">
-    
-    <!-- Header Section -->
-    <header class="bg-green-600 text-white p-6 text-center text-3xl font-bold">
-        Low FODMAP Meal Plan - Kidney & Sinus Friendly
-    </header>
-    
-    <div class="container mx-auto p-6">
-        
-        <!-- Introduction -->
-        <section class="bg-white p-6 rounded-lg shadow-md mb-6">
-            <h2 class="text-2xl font-semibold text-green-700">About This Meal Plan</h2>
-            <p class="text-gray-700 mt-2">This meal plan is designed for individuals looking for a low FODMAP, gluten-free, dairy-free, and kidney-friendly diet. It avoids spicy foods, onion, garlic, fermented foods, and high-sugar fruits while ensuring easy digestion and sinus relief.</p>
-        </section>
-        
-        <!-- Meal Base -->
-        <section class="bg-white p-6 rounded-lg shadow-md mb-6">
-            <h2 class="text-2xl font-semibold text-green-700">Base for Every Meal</h2>
-            <p class="text-gray-700">✔ Steamed White Rice + Moong Dal Sabji + Selected Vegetables</p>
-            <p class="text-gray-700">✔ 1 tsp Isabgol (Psyllium Husk) added to every vegetable sabji</p>
-        </section>
-        
-        <!-- Approved Vegetables -->
-        <section class="bg-white p-6 rounded-lg shadow-md mb-6">
-            <h2 class="text-2xl font-semibold text-green-700">Approved Vegetables</h2>
-            <ul class="list-disc pl-5 text-gray-700">
-                <li>Bottle Gourd (Lauki)</li>
-                <li>Capsicum (Green Bell Pepper)</li>
-                <li>Peas (in moderation)</li>
-                <li>Carrot</li>
-                <li>Pumpkin</li>
-                <li>Tinda (Indian Baby Gourd)</li>
-                <li>Karela (Bitter Gourd)</li>
-                <li>Palak (Spinach)</li>
-            </ul>
-        </section>
-        
-        <!-- Meal Sections -->
-        <section class="bg-white p-6 rounded-lg shadow-md mb-6">
-            <h2 class="text-2xl font-semibold text-green-700">Daily Meal Plan</h2>
-            
-            <div class="mt-4">
-                <h3 class="text-xl font-semibold text-green-600">Breakfast Options</h3>
-                <ul class="list-disc pl-5 text-gray-700">
-                    <li>Soft Rice & Moong Dal Sabji</li>
-                    <li>Poha with Peas & Carrots</li>
-                    <li>Rice Porridge with Coconut Milk</li>
-                    <li>Pumpkin Mash with Rice</li>
-                    <li>Tinda Rice Bowl</li>
-                </ul>
-            </div>
-            
-            <div class="mt-4">
-                <h3 class="text-xl font-semibold text-green-600">Lunch Options</h3>
-                <ul class="list-disc pl-5 text-gray-700">
-                    <li>Rice + Moong Dal + Spinach Sabji</li>
-                    <li>Lauki Sabji with Rice</li>
-                    <li>Karela Sabji + Rice</li>
-                    <li>Carrot & Peas Sabji with Rice</li>
-                    <li>Light Moong Dal Khichdi</li>
-                </ul>
-            </div>
-            
-            <div class="mt-4">
-                <h3 class="text-xl font-semibold text-green-600">Dinner Options</h3>
-                <ul class="list-disc pl-5 text-gray-700">
-                    <li>Rice + Moong Dal + Capsicum Sabji</li>
-                    <li>Plain Rice + Lauki Sabji</li>
-                    <li>Pumpkin & Peas Stir-fry + Rice</li>
-                    <li>Tinda Sabji + Rice</li>
-                    <li>Rice + Palak Sabji</li>
-                </ul>
-            </div>
-        </section>
-        
-        <!-- Snack Section -->
-        <section class="bg-white p-6 rounded-lg shadow-md mb-6">
-            <h2 class="text-2xl font-semibold text-green-700">Anytime Snacks</h2>
-            <ul class="list-disc pl-5 text-gray-700">
-                <li><strong>Lite Multigrain Mix ✅ (Anytime snack)</strong></li>
-                <li>Roasted Makhana (Fox Nuts)</li>
-                <li>Fresh Coconut Slices</li>
-                <li>Herbal Tea (Ginger/Peppermint/Chamomile)</li>
-                <li>Soft Steamed Sweet Potato</li>
-                <li>Plain Puffed Rice (Murmura) with Peanuts</li>
-            </ul>
-        </section>
-        
-        <!-- Night Exception -->
-        <section class="bg-white p-6 rounded-lg shadow-md mb-6">
-            <h2 class="text-2xl font-semibold text-red-500">Night Exception</h2>
-            <p class="text-gray-700">✔ <strong>Knorr Korean Kimchi Soup</strong> (Moderate quantity, before 9 PM)</p>
-            <p class="text-gray-700">✔ <strong>1 tsp Isabgol added</strong> to the soup for digestion</p>
-            <p class="text-gray-700">✔ <strong>Do not consume before sleeping</strong> (Ideal time: 1-2 hours before bedtime)</p>
-        </section>
-        
-        <!-- Foods to Avoid -->
-        <section class="bg-white p-6 rounded-lg shadow-md mb-6">
-            <h2 class="text-2xl font-semibold text-red-600">Foods to Avoid</h2>
-            <ul class="list-disc pl-5 text-gray-700">
-                <li>Onion, Garlic, and Spicy Foods</li>
-                <li>Fermented Foods (Idli, Dosa, Dhokla, Pickles)</li>
-                <li>Sugary Fruits (Banana, Mango, Grapes, Apple)</li>
-                <li>Junk Food (Spicy Bhujiya, Maggi, Bakery Items)</li>
-                <li>Heavy Lentils (Rajma, Chana Dal, Urad Dal, Masoor Dal)</li>
-            </ul>
-        </section>
-    </div>
-    
+<body class="bg-gray-50 text-gray-800 font-sans">
+  <div class="max-w-4xl mx-auto p-6">
+    <h1 class="text-3xl font-bold text-blue-900 mb-4">Ankylosing Spondylitis (AS) – Personal Diet & Inflammation Tracker</h1>
+
+    <section class="mb-8">
+      <h2 class="text-2xl font-semibold text-red-700 mb-2">🔥 Inflammatory Response Pattern</h2>
+      <ul class="list-disc list-inside text-sm">
+        <li>Severe internal heat sensation (bone-deep) without external fever</li>
+        <li>Very high ESR levels</li>
+        <li>Spiking blood pressure</li>
+        <li>Pulse consistently over 100</li>
+        <li>First sign of recovery: pulse normalization</li>
+      </ul>
+    </section>
+
+    <section class="mb-8">
+      <h2 class="text-2xl font-semibold text-red-800 mb-2">❌ Triggers to Strictly Avoid</h2>
+      <div class="bg-red-100 p-4 rounded-lg text-sm">
+        <ul class="list-disc list-inside">
+          <li>All types of rice (white, brown, etc.)</li>
+          <li>All gluten-containing grains (wheat, maida, suji)</li>
+          <li>Millets (ragi, bajra, jowar)</li>
+          <li>Curd and sour dairy</li>
+          <li>Packaged items (to avoid excess salt, sugar, preservatives)</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="mb-8">
+      <h2 class="text-2xl font-semibold text-green-800 mb-2">✅ 30-Day Healing Diet Plan</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-4 text-sm">
+        <div>
+          <h3 class="font-bold text-lg mb-1">🌅 Morning (Breakfast)</h3>
+          <ul class="list-disc list-inside">
+            <li>Homemade dosa (gluten-free batter)</li>
+            <li>Subjis: Karela, Cauliflower, Cabbage, Shimla Mirch, Lauki, Tinda, Petha</li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="font-bold text-lg mb-1">🥗 Afternoon (Lunch)</h3>
+          <ul class="list-disc list-inside">
+            <li>Homemade dosa or gluten-free soft chapati</li>
+            <li>Homemade paneer sabji (light oil, no spices)</li>
+            <li>Boiled moong dal (no onion, garlic)</li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="font-bold text-lg mb-1">🌃 Evening (Dinner)</h3>
+          <ul class="list-disc list-inside">
+            <li>Light vegetable soup (home vegetables only)</li>
+            <li>Idli (fermented rice-lentil, gut-safe)</li>
+            <li>Chicken soup (once or twice a week)</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="mb-8">
+      <h2 class="text-2xl font-semibold text-yellow-800 mb-2">🧘‍♂️ Additional Observations</h2>
+      <ul class="list-disc list-inside text-sm">
+        <li>Pulse rate drop signals inflammation recovery</li>
+        <li>Better sleep follows reduced inflammation</li>
+        <li>Emotional stress, junk food, and irregularity cause flare-ups</li>
+      </ul>
+    </section>
+
+    <section class="bg-blue-50 p-4 rounded-lg">
+      <h2 class="text-xl font-bold text-blue-900 mb-2">📝 Purpose of This Page</h2>
+      <p class="text-sm">To document and remember effective anti-inflammatory dietary patterns and triggers to manage Ankylosing Spondylitis without relying heavily on medications. This is a living page for tracking health trends and sustaining healing through food and routine.</p>
+    </section>
+  </div>
 </body>
 </html>
